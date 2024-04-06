@@ -36,7 +36,8 @@ export const io = new Server(httpServer, {
             process.env.CLIENT_URL,
             "http://localhost:3000",
             "http://localhost:4000",
-           
+            "https://track-on-backend.vercel.app/",
+            "https://track-on-frontend.vercel.app/"
         ],
         methods: ["GET", "POST","PUT"],
     },
@@ -50,6 +51,8 @@ const corsOption = {
        
         "http://localhost:3000",
         "http://localhost:4000",
+        "https://track-on-backend.vercel.app/",
+        "https://track-on-frontend.vercel.app/"
        
     ],
 };
