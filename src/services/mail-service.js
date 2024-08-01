@@ -5,7 +5,7 @@ class MailService {
     try {
       const transporter = createTransport({
         host: process.env.HOST,
-        service: process.env.SERVICE,
+       
         port: 587,
         secure: true,
         auth: {
