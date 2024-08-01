@@ -6,7 +6,7 @@
     "scripts": {
         "build": "npm run lint:check && npm run build:babel",
         "build:babel": "babel src -d dist --copy-files",
-        "start": "node dist/server.js",
+        "start": "node src/server.js",
         "clean": "rimraf dist",
         "restart": "npm run clean && npm run build:babel && npm run start",
         "dev": "nodemon -e js,ejs --exec npm run restart",
