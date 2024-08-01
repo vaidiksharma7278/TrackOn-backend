@@ -15,17 +15,10 @@
         "lint:check": "eslint .",
         "lint:fix": "eslint --fix ."
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/alsoamit/metrack-api.git"
-    },
+ 
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/alsoamit/metrack-api/issues"
-    },
-    "homepage": "https://github.com/alsoamit/metrack-api#readme",
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "cookie-parser": "^1.4.6",
